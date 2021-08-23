@@ -1,0 +1,50 @@
+[
+  {
+    "id_product": 124,
+    "product_name": "JACKET",
+    "color": "BLUE",
+    "size": "XL",
+    "price": 99.00,
+    "img": "./img/product-man-1.png"
+  },
+  {
+    "id_product": 457,
+    "product_name": "WOMEN SUIT",
+    "color": "BLACK",
+    "size": "XL",
+    "price": 199.00,
+    "img": "./img/product-women-1.png"
+  },
+  {
+    "id_product": 123,
+    "product_name": "PANAMA",
+    "color": "BLUE",
+    "size": "L",
+    "price": 59.00,
+    "img": "./img/product-man-2.png"
+  },
+  {
+    "id_product": 456,
+    "product_name": "SHIRT",
+    "color": "PALE BLUE",
+    "size": "X",
+    "price": 129.00,
+    "img": "./img/product-man-3.png"
+  },
+  {
+    "id_product": 789,
+    "product_name": "SUIT FOR WOMENS ",
+    "color": "PALE BLUE",
+    "size": "XL",
+    "price": 179.00,
+    "img": "./img/product-women-2.png"
+  },
+  {
+    "id_product":987,
+    "product_name": "BLOUSE",
+    "color": "GREEN",
+    "size": "L",
+    "price": 89.00,
+    "img":"./img/product-women-3.png"
+  }
+]

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shop-Store</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <header-comp :cartitems="cartGoods" @filtergoods='filterGoods' @addproduct='addProduct'></header-comp>
+        </header>
+        <main>
+            <promo></promo>
+            <categories></categories>
+            <div class="products-title">
+                <h1 class="products-heading">
+                    Fetured Items
+                </h1>
+                <p class="products-text">
+                    Shop for items based on what we featured in this week
+                </p>    
+            </div>
+            <products-comp :showed='showedProducts' @addproduct='addProduct' @remove='remove'></products-comp>
+            <a href="product.html" class="product-button">Browse All Product</a>
+        </main>
+        <advantages></advantages>
+        <rich></rich>
+        <podval></podval>
+    </div>
+    <script src="js/vue.js"></script>
+    <script src="js/promoes.js"></script>
+    <script src="js/categories.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/advantages.js"></script>
+    <script src="js/formes.js"></script>
+    <script src="js/footers.js"></script>
+</body>
+</html>
