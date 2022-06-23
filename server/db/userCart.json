@@ -3,13 +3,32 @@
     "countGoods": 0,
     "contents": [
         {
-            "quantity": 1,
+            "quantity": 2,
             "id_product": 457,
             "product_name": "WOMEN SUIT",
             "color": "BLACK",
             "size": "XL",
             "price": 199,
             "img": "./img/product-women-1.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 123,
+            "product_name": "PANAMA",
+            "color": "BLUE",
+            "size": "L",
+            "price": 59,
+            "img": "./img/product-man-2.png"
+        }
+    ]
+}  {
+            "quantity": 1,
+            "id_product": 123,
+            "product_name": "PANAMA",
+            "color": "BLUE",
+            "size": "L",
+            "price": 59,
+            "img": "./img/product-man-2.png"
         }
     ]
 }

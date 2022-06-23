@@ -1,7 +1,6 @@
 $pink: #F16D7F;
 
 
-
 body {
   font-family: 'Lato' , sans-serif;
   margin: 0;
@@ -22,9 +21,7 @@ body {
   margin: 0 auto;
 }
 
-.center {
-  //плавный врап(в изучении)
-  
+.center {  
   padding: 0 calc(50% - 1140px / 2);
 }
 
@@ -47,5 +44,5 @@ a {
 @import "blocks/rgs";
 @import "blocks/media-tablet";
 @import "blocks/media-mobile";
-@import "blocks/snake";
 @import "blocks/search";
+@import "blocks/snake";

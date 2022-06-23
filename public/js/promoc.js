@@ -1,5 +1,5 @@
-Vue.component('arrivals', {
-    template: `
+Vue.component("arrivals", {
+  template: `
     <section class="promo-catalog">
         <div class="wrap promo-catalog">
             <nav class="promo-catalog-title">
@@ -16,11 +16,11 @@ Vue.component('arrivals', {
     </section>
 
     <filterrs></filterrs>
-`
-})
+`,
+});
 
-Vue.component('filterrs', {
-    template: `
+Vue.component("filterrs", {
+  template: `
     <section class="catalog-filter wrap">
             <div class="filter-content">
             <details class="filter">
@@ -139,8 +139,6 @@ Vue.component('filterrs', {
                     </summary>
                 </details>
            </div>
-    
-        
         </section>
-`
-}) 
+`,
+});

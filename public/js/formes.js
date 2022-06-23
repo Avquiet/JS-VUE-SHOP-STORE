@@ -15,10 +15,9 @@ Vue.component('rich', {
             <span class="subscribe-title-text-1">SUBSCRIBE <br></span>
             <span class="subscribe-title-text-2">FOR OUR NEWLETTER AND PROMOTION</span>
           
-
             <form class="subscribe-button">
                 <input placeholder="Enter Your Email" type="email" class="email-btn">
-                <input type="submit" value="Subscribe"  class="subscribe-btn">
+                <input type="submit" value="Subscribe" class="subscribe-btn">
             </form>
           </section>
         </aside>

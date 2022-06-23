@@ -1,5 +1,5 @@
-Vue.component('promo', {
-    template: `
+Vue.component("promo", {
+  template: `
         <section class="promo">
             <div class="wrap promo-wrap">
                 <h1 class="promo-title">
@@ -14,5 +14,5 @@ Vue.component('promo', {
                     </span>
                 </h1>
             </div>
-        </section>`
-})
+        </section>`,
+});

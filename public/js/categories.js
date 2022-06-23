@@ -2,7 +2,7 @@ Vue.component('categories', {
     template: `
         <section class="categories wrap">
                 <div class="category-item">
-                    <a href="catalog.html">
+                    <a href="#">
                     <h4 class="category-item-title">
                         30% OFF <br>
                         <span class="color-text">
@@ -13,7 +13,7 @@ Vue.component('categories', {
                 </div>
 
                 <div class="category-item category-item-2">
-                    <a href="catalog.html">
+                    <a href="#">
                     <h4 class="category-item-title">
                         HOT DEAL <br>
                         <span class="color-text">
@@ -24,7 +24,7 @@ Vue.component('categories', {
                 </div>
 
                 <div class="category-item category-item-3">
-                    <a href="catalog.html">
+                    <a href="#">
                     <h4 class="category-item-title">
                         NEW ARRIVALS <br>
                         <span class="color-text">
@@ -35,7 +35,7 @@ Vue.component('categories', {
                 </div>
            
                 <div class="category-item category-item-4">
-                    <a href="catalog.html">
+                    <a href="#">
                     <h4 class="category-item-title-1">
                         LUXIROUS & TRENDY <br>
                     </h4>
@@ -44,6 +44,5 @@ Vue.component('categories', {
                     </span>
                 </div>
             </a>
-         </section> 
-        `
+        </section> `
 })

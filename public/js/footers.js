@@ -2,7 +2,7 @@ Vue.component('podval', {
     template: `<footer class="podval">
         <section class="podval-info wrap">
             <p class="podval-text">
-                © 2021&nbsp;&nbsp;Brand&nbsp;&nbsp;All Rights Reserved.
+                © 2022&nbsp;&nbsp;Brand&nbsp;&nbsp;All Rights Reserved.
             </p>
 
             <nav class="podval-social">

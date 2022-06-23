@@ -33,5 +33,4 @@ Vue.component('advantages', {
             </div>
         </section>
     </section>`
-    
 })
